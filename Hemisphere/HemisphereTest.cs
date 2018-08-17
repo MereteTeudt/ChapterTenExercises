@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Hemisphere
 {
-    class Program
+    class HemisphereTest
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello");
         }
     }
 }
