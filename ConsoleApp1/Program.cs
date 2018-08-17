@@ -10,7 +10,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello");
+            float radius = 1;
+            float pi = (float)Math.PI;
+            float volume = (2 / 3f) * pi * (radius * radius * radius);
+            Console.Write(volume);
+            Console.ReadLine();
         }
     }
 }

@@ -10,6 +10,11 @@ namespace Hemisphere
     {
         static void Main(string[] args)
         {
+            Hemisphere hem = new Hemisphere();
+            Console.WriteLine(hem.CurvedSurfaceArea);
+            Console.WriteLine(hem.TotalSurfaceArea);
+            Console.WriteLine(hem.Volume);
+            Console.ReadLine();
         }
     }
 }

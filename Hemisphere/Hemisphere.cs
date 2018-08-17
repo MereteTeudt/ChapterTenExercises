@@ -9,9 +9,6 @@ namespace Hemisphere
     class Hemisphere
     {
         private float radius;
-        private double volume;
-        private double curvedSurfaceArea;
-        private double totalSurfaceArea;
 
         public Hemisphere(float radius = 1)
         {
@@ -53,7 +50,7 @@ namespace Hemisphere
         {
             get
             {
-                return 3 / 4 * Math.PI * (Radius * Radius * Radius);
+                return 2 / 3f * Math.PI * (Radius * Radius * Radius);
             }
         }
     }
