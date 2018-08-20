@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemisphere", "Hemisphere\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModifiedTime2", "ModifiedTime2\ModifiedTime2.csproj", "{9C727E69-D4C4-4FA5-95FF-36B45A0BCB7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepreciatingValue", "DepreciatingValue\DepreciatingValue.csproj", "{05076145-2BB5-4A9F-8ED5-A18977B07FC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9C727E69-D4C4-4FA5-95FF-36B45A0BCB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C727E69-D4C4-4FA5-95FF-36B45A0BCB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C727E69-D4C4-4FA5-95FF-36B45A0BCB7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05076145-2BB5-4A9F-8ED5-A18977B07FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05076145-2BB5-4A9F-8ED5-A18977B07FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05076145-2BB5-4A9F-8ED5-A18977B07FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05076145-2BB5-4A9F-8ED5-A18977B07FC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
