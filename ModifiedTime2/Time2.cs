@@ -9,9 +9,9 @@ namespace ModifiedTime2
     class Time2
     {
         private int secondsFromMidnight;
-        public Time2(int secondsFromMidnight)
+        public Time2(int hour = 0, int minute = 0, int second = 0)
         {
-            SetTime(secondsFromMidnight);
+            SetTime(hour, minute, second);
         }
         public Time2(Time2 time)
             : this(time.secondsFromMidnight) { }
@@ -23,11 +23,11 @@ namespace ModifiedTime2
         {
             get
             {
-                return
+                return secondsFromMidnight;
             }
             set
             {
-
+                secondsFromMidnight = value;
             }
         }
     }
